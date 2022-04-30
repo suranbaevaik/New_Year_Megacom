@@ -76,7 +76,7 @@ body{
 
 .item-four{
 	display: flex;
-	margin-top: -70px;
+	margin-top: -77px;
 	margin-left: 240px;
 }
 
@@ -114,8 +114,8 @@ body{
 
 @media screen and (max-width:576px) {
 	body{
-		width: 400px;
-		height: 700px;
+		width: 420px;
+		height: 100%;
 	}
 	.left{
 		width: 5%;
@@ -127,7 +127,7 @@ body{
 	}
 
 	.item-one{
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 
 	.item-one img{
@@ -136,7 +136,7 @@ body{
 
 	.item-two{
 		position: fixed;
-		top: 75px;
+		top: 65px;
 		left: 300px;
 	}
 
@@ -168,7 +168,7 @@ body{
 	}
 
 	.item-five{
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 
 	.item-five img{
