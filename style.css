@@ -1,0 +1,180 @@
+body{
+	display: flex;
+	margin: 0 auto;
+	background-color: #1A5B35;
+	position: fixed;
+	height: 100%;
+}
+
+.right{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.center{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-grow: 1;
+	position: relative;
+}
+
+.left{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	position: relative;
+}
+
+.item-one{
+	flex-grow: 1;
+}
+
+.item-two{
+	position: absolute;
+	left: 10px;
+	bottom: 65px;
+	flex-grow: 1;	
+}
+
+.item-three{
+	position: absolute;
+	bottom: 0;
+	flex-grow: 1;
+}
+
+.text{
+	width: 65%;
+	margin-top: 100px;
+}
+
+
+
+.text h1{
+	font-family: 'Comforter Brush', cursive;
+	font-size: 36px;
+	color: #CEB076;
+	text-align: center;
+	font-weight: 200;
+}
+
+.text-element{
+	font-weight: 600;
+}
+
+.text p{
+	font-family: 'Comfortaa', cursive;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
+
+.text-end{
+	font-weight: bolder;
+}
+
+.item-four{
+	display: flex;
+	margin-top: -70px;
+	margin-left: 240px;
+}
+
+.item-four img{
+	width: 104px;
+}
+
+.item-five{
+	margin-top: 40px;
+}
+
+@media print{
+	body{
+		background-color: transparent;
+	}
+	.left{
+		display: none;
+	}
+	.item-four{
+		display: none;
+	}
+	.item-five{
+		display: none;
+	}
+	.right{
+		display: none;
+	}
+	.text h1{
+		color: black;
+	}
+	.text p{
+		color: black;
+	}
+}
+
+@media screen and (max-width:576px) {
+	body{
+		width: 400px;
+		height: 700px;
+	}
+	.left{
+		width: 5%;
+	}
+	.center{
+		width: 95%;
+		height: 100%;
+		margin-right: 20px;
+	}
+
+	.item-one{
+		margin-top: 30px;
+	}
+
+	.item-one img{
+		width: 90px;
+	}
+
+	.item-two{
+		position: fixed;
+		top: 75px;
+		left: 300px;
+	}
+
+	.item-two img{
+		width: 40px;
+	}
+
+	.item-three{
+		display: none;
+	}
+
+	.text{
+		width: 328px;
+		margin-top: 80px;
+		}
+
+	.text p{
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+	.item-four{
+		margin-top: -77px;
+		margin-left: 200px;
+	}
+
+	.item-four img{
+		width: 84px;
+	}
+
+	.item-five{
+		margin-top: 30px;
+	}
+
+	.item-five img{
+		width: 89px;
+	}
+	.right{
+		display: none;
+	}
+}
