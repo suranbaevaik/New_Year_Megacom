@@ -126,22 +126,18 @@ body{
 		margin-right: 20px;
 	}
 
-	.item-one{
-		margin-top: 20px;
-	}
-
 	.item-one img{
 		width: 90px;
 	}
 
 	.item-two{
 		position: fixed;
-		top: 65px;
-		left: 300px;
+		top: 55px;
+		left: 340px;
 	}
 
 	.item-two img{
-		width: 40px;
+		width: 45px;
 	}
 
 	.item-three{
@@ -149,22 +145,22 @@ body{
 	}
 
 	.text{
-		width: 328px;
-		margin-top: 80px;
+		width: 350px;
+		margin-top: 50px;
 		}
 
 	.text p{
-		font-size: 12px;
+		font-size: 16px;
 		line-height: 19px;
 	}
 
 	.item-four{
-		margin-top: -77px;
-		margin-left: 200px;
+		margin-top: -80px;
+		margin-left: 250px;
 	}
 
 	.item-four img{
-		width: 84px;
+		width: 90px;
 	}
 
 	.item-five{
